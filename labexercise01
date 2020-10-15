@@ -1,0 +1,86 @@
+MODULE willa_module
+	PROC willa_pickandplace()
+		MoveJ [[0,500,500],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[61.5,44,200],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,100],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveL [[61.5,44,5],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		WaitTime 2;
+		Set DO_COMPRESSED_AIR;
+		WaitTime 2;
+		MoveL [[61.5,44,5],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,100],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,200],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[88,0,200],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+    MoveJ [[88,0,100],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveL [[88,0,17],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		WaitTime 2;
+		Reset DO_COMPRESSED_AIR;
+		WaitTime 2;
+		MoveL [[88,0,100],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[88,0,200],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[0,500,500],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_place;
+        
+
+    MoveJ [[0,500,500],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[61.5,44,200],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,100],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveL [[61.5,44,-12],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		WaitTime 2;
+		Set DO_COMPRESSED_AIR;
+		WaitTime 2;
+		MoveL [[61.5,44,-12],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,100],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,200],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[88,0,200],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+    MoveJ [[88,0,100],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveL [[88,0,34],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		WaitTime 2;
+		Reset DO_COMPRESSED_AIR;
+		WaitTime 2;
+		MoveL [[88,0,100],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[88,0,200],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[0,500,500],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_place;
+        
+
+    MoveJ [[0,500,500],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[61.5,44,200],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,100],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveL [[61.5,44,-30],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		WaitTime 2;
+		Set DO_COMPRESSED_AIR;
+		WaitTime 2;
+		MoveL [[61.5,44,-30],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,100],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,200],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[88,0,200],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+    MoveJ [[88,0,100],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveL [[88,0,51],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		WaitTime 2;
+		Reset DO_COMPRESSED_AIR;
+		WaitTime 2;
+		MoveL [[88,0,100],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[88,0,200],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[0,500,500],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_place;
+
+        
+    MoveJ [[0,500,500],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[61.5,44,200],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,100],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveL [[61.5,44,-48],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		WaitTime 2;
+		Set DO_COMPRESSED_AIR;
+		WaitTime 2;
+		MoveL [[61.5,44,-48],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,100],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[61.5,44,200],[0,-0.59134,0.80642,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_pick;
+		MoveJ [[88,0,200],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+    MoveJ [[88,0,100],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveL [[88,0,68],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		WaitTime 2;
+		Reset DO_COMPRESSED_AIR;
+		WaitTime 2;
+		MoveL [[88,0,100],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v20, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[88,0,200],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, fine, willa_tool_4\WObj:=willa_wobj4_place;
+		MoveJ [[0,500,500],[0,-0.69170,-0.72217,0],[0,-1,2,0],[4770.77,9E+09,9E+09,9E+09,9E+09,9E+09]], v150, z50, willa_tool_4\WObj:=willa_wobj4_place;
+    ENDPROC        
+ENDMODULE
